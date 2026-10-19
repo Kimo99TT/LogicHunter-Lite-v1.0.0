@@ -1,0 +1,15 @@
+[tool.pytest.ini_options]
+addopts = "-ra"
+testpaths = ["."]
+python_files = ["test_*.py"]
+
+[project]
+name = "logichunter-lite"
+version = "1.0.0"
+description = "Workflow-aware web security triage, cross-role differential analysis, and guarded Gemini-assisted verification harness"
+requires-python = ">=3.10"
+dependencies = [
+  "requests>=2.31.0",
+  "defusedxml>=0.7.1",
+  "PyYAML>=6.0",
+]
