@@ -1,0 +1,13 @@
+<items><item><url>http://127.0.0.1/</url><host>127.0.0.1</host><method>GET</method><request base64="false">GET / HTTP/1.1
+Host: 127.0.0.1
+
+</request><response base64="false">HTTP/1.1 200 OK
+Content-Type: application/json
+
+{"ok":true}</response></item><item><url>http://127.0.0.1/admin</url><host>127.0.0.1</host><method>GET</method><request base64="false">GET /admin HTTP/1.1
+Host: 127.0.0.1
+
+</request><response base64="false">HTTP/1.1 403 Forbidden
+Content-Type: application/json
+
+{"error":"forbidden"}</response></item></items>

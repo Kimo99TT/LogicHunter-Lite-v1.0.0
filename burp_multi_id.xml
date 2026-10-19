@@ -1,0 +1,22 @@
+<items><item><url>http://127.0.0.1/api/user?id=1</url><host>127.0.0.1</host><method>GET</method><request base64="false">GET /api/user?id=1 HTTP/1.1
+Host: 127.0.0.1
+Cookie: session=redacted
+
+</request><response base64="false">HTTP/1.1 200 OK
+Content-Type: application/json
+
+{"user":"Alice"}</response></item><item><url>http://127.0.0.1/api/user?id=2</url><host>127.0.0.1</host><method>GET</method><request base64="false">GET /api/user?id=2 HTTP/1.1
+Host: 127.0.0.1
+Cookie: session=redacted
+
+</request><response base64="false">HTTP/1.1 200 OK
+Content-Type: application/json
+
+{"user":"Bob","role":"user"}</response></item><item><url>http://127.0.0.1/api/user?id=3</url><host>127.0.0.1</host><method>GET</method><request base64="false">GET /api/user?id=3 HTTP/1.1
+Host: 127.0.0.1
+Cookie: session=redacted
+
+</request><response base64="false">HTTP/1.1 200 OK
+Content-Type: application/json
+
+{"user":"Carol","role":"admin"}</response></item></items>
